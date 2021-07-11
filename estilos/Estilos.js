@@ -19,4 +19,9 @@ export default StyleSheet.create({
     color: '#f00',
     fontSize: 30,
   },
-});
+  logo:{
+    width:250,
+    height:200,
+    resizeMode:'contain'
+  },
+})
