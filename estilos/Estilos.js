@@ -3,10 +3,15 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop:'5%',
+    
+  },
+
+  listaProdutos: {
+    // flex:1,
+    fontSize:10,
+    
   },
   item:{
     flexDirection:'row',
@@ -16,5 +21,13 @@ export default StyleSheet.create({
     marginVertical:9,
     alignItems:'center',
     justifyContent:'center',
+    
+  },
+
+  imgFundo:{
+    flex:1,
+    resizeMode:'cover',
+    width:'100%'
+
   }
 })

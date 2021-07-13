@@ -20,7 +20,7 @@ const produtos = [
 
 export default function () {
   return <View style={Estilos.container} >
-    <FlatList
+    <FlatList style={Estilos.listaProdutos}
     data={produtos}
     keyExtractor={item=>item.id}
     renderItem={({item})=><View style={Estilos.item}><Text>Descrição:{item.desc[0]} - Valor: {item.desc[1]}</Text></View>}
