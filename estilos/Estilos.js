@@ -6,22 +6,15 @@ export default StyleSheet.create({
     backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
+    marginTop:'5%',
   },
-  textoCursos: {
-    color: '#00f',
-    fontSize: 15,
-  },
-  textoPadrao: {
-    color: '#94107b',
-    fontSize: 20,
-  },
-  textoTitulo: {
-    color: '#f00',
-    fontSize: 30,
-  },
-  logo:{
-    width:250,
-    height:200,
-    resizeMode:'contain'
-  },
+  item:{
+    flexDirection:'row',
+    height:60,
+    width:`100%`,
+    backgroundColor:`#ef8afe`, 
+    marginVertical:9,
+    alignItems:'center',
+    justifyContent:'center',
+  }
 })
